@@ -1,2 +1,2 @@
-# ArcFaceDemo
-人脸识别
+# LiCaiTong
+管理收支信息
