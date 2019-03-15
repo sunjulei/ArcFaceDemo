@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baiban">
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:textColor="#bc1e1c1c"
+        android:textSize="24dp"
+        android:text="第三组成员:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#af554f4f"
+        android:layout_marginTop="50dp"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             UI：郑俊钰    刘静云    黄裕德       DATA：陈日锦    孙居垒"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+    </TextView>
+
+</LinearLayout>

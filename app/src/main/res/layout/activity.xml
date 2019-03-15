@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:id="@+id/iv"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/titil"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp" />
+    <LinearLayout
+        android:id="@+id/ll_number"
+        android:layout_below="@+id/iv"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_number"
+            android:padding="10dp"
+            android:text="密码:"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#3C8DC4"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_below="@+id/ll_number"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_marginTop="350dp"
+        android:textSize="16dp"
+        android:textColor="#0025ff"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_close"
+        android:text="取消"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+
+</RelativeLayout>

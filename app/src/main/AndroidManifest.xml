@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.licaitong">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tb"
+        android:label="家庭理财通"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Szbq7_xg"/>
+        <activity android:name=".InfoManage"/>
+        <activity android:name=".FlagManage"/>
+        <activity android:name=".Showinfo"/>
+        <activity android:name=".Szbq7"
+            android:label="收支便签"/>
+        <activity android:name=".Xtsz6"
+            android:label="系统设置"/>
+        <activity android:name=".Sjgl5"
+            android:label="数据管理"/>
+        <activity android:name=".Wdsr4"
+            android:label="我的收入"/>
+        <activity android:name=".Wdzc3"
+            android:label="我的支出"/>
+        <activity android:name=".Xzsr2"
+            android:label="新增收入"/>
+        <activity android:name=".Xzzc1"
+            android:label="新增支出"/>
+        <activity android:name=".Main_zhu"
+            android:label="家庭理财通"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

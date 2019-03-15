@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:text="便签管理"
+            android:textSize="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/bb"
+            android:textColor="#c37522"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="请输入便签，最多输入200字"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ee1"
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bb1"
+            android:layout_alignTop="@+id/bb2"
+            android:layout_toLeftOf="@+id/bb2"
+            android:text="修改"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bb2"
+            android:layout_marginTop="400dp"
+            android:layout_alignParentRight="true"
+            android:text="删除"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>
